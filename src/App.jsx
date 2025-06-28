@@ -19,7 +19,7 @@ function App() {
   }
 
   const convert = () => {
-    setConvertedAmount(amount * (1 / currencyInfo[to]))
+    setConvertedAmount(amount *currencyInfo[to])
   }
 
   return (
